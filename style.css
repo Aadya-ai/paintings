@@ -1,0 +1,103 @@
+h1
+{
+	color: purple; 
+	font-size: 40px;
+}
+
+h3 
+{
+    color: royalblue;
+}
+
+.body_backgorund {
+	background-image: url("b1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#my_canvas{
+background-color: white;
+border-style: ridge;
+border-width: 10;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:aquamarine;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  #wrapper {
+    margin: 100px auto;
+    box-shadow: 0 0 10px #000;
+  }
+  
+  .slice {
+    overflow: hidden;
+    height: 55px;
+    border-top: 4px solid #000;
+    h1 {
+      margin: 0;
+      padding-left: 50px;
+      font-family: 'Montserrat Subrayada', sans-serif;
+      font-size: 105px;
+      letter-spacing: -1px;
+      line-height: 60px;
+      text-transform: uppercase;
+      text-shadow: 0 0 10px #000;
+      -moz-animation-duration: 3s;
+      -webkit-animation-duration: 3s;
+      -moz-animation-name: slidein;
+      -webkit-animation-name: slidein;
+       &.one {
+         -webkit-animation-delay: 0.5s;
+         -moz-animation-delay: 0.5s;
+       }
+       &.two {
+         -webkit-animation-delay: 1s;
+         -moz-animation-delay: 1s;
+       }
+       &.three {
+         -webkit-animation-delay: 1.5s;
+         -moz-animation-delay: 1.5s;
+       }
+    }
+    &.b {
+      border-bottom: 4px solid #000;
+    }
+  }
+  
+  slidein {
+    from {
+     margin-left:100%;
+     opacity: 0;
+    }
+    
+    75% {
+      margin-left:0%;
+      color: #333;
+      opacity: 1;
+    }
+        
+    to {
+      color: #111;
+    }
+  }
+  
+  slidein {
+    from {
+     margin-left:100%;
+     opacity: 0;
+    }
+    
+    75% {
+      margin-left:0%;
+      color: #333;
+      opacity: 1;
+    }
+        
+    to {
+      color: #111;
+    }
+  }
